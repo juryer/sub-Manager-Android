@@ -36,3 +36,7 @@ Architecture: View-Adapter パターンによる効率的なリスト描画
 データ整合性: リストの削除や並び替えが発生した際、即座に合計金額に反映されるようオブザーバー的な処理フローを意識しました。
 
 デバッグ効率: Device Explorer や App Inspection を活用し、内部データ（JSON）の整合性を確認しながら開発を進めました。
+
+📥 ダウンロード
+[サブスク管理 v1.0 リリースページ]([https://github.com/juryer/[リポジトリ名]/releases/tag/v1.0](https://github.com/juryer/sub-Manager-Android/releases/tag/v1.0))
+※実機にインストールして動作を確認いただけます。
