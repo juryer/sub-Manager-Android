@@ -38,5 +38,14 @@ Architecture: View-Adapter パターンによる効率的なリスト描画
 デバッグ効率: Device Explorer や App Inspection を活用し、内部データ（JSON）の整合性を確認しながら開発を進めました。
 
 📥 ダウンロード
-[サブスク管理 v1.0 リリースページ]([https://github.com/juryer/[リポジトリ名]/releases/tag/v1.0](https://github.com/juryer/sub-Manager-Android/releases/tag/v1.0)
+[サブスク管理 リリースページ]([https://github.com/juryer/[リポジトリ名]/releases/tag/v1.0](https://github.com/juryer/sub-Manager-Android/releases/tag/v1.0)
 ※実機にインストールして動作を確認いただけます。
+
+---
+## スクリーンショット
+
+<img src="https://github.com/user-attachments/assets/8e5a6d86-73d5-4362-affb-b15fc9e022bf" width="20%">
+<img src="https://github.com/user-attachments/assets/3bd73fc1-1821-467e-99f2-8d7d0732ed42" width="20%">
+
+
+
