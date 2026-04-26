@@ -16,6 +16,7 @@ class SubscriptionAdapter(
     class ViewHolder(view: android.view.View) : RecyclerView.ViewHolder(view) {
         val nameText: android.widget.TextView = view.findViewById(R.id.txtName)
         val priceText: android.widget.TextView = view.findViewById(R.id.txtPrice)
+        val methodText: TextView = view.findViewById(R.id.txtMethod)
         val btnDelete: android.widget.ImageButton = view.findViewById(R.id.btnDelete)
     }
 
@@ -30,6 +31,9 @@ class SubscriptionAdapter(
         holder.nameText.text = item.name
         // ここは今朝の状態に合わせて monthlyFee か price にしてください
         holder.priceText.text = "¥${String.format("%,d", item.monthlyFee)}"
+
+        // item.paymentMethod の部分は、データクラス（Entity）の変数名に合わせてください
+        holder.methodText.text = "支払い方法：${item.paymentMethod}"
 
         // 行タップで編集画面へ
         holder.itemView.setOnClickListener { onItemClick(item) }
